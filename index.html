@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách sản phẩm</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            color: #24344d;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f7fb;
+        }
+
+        main {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 32px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 12px 35px rgba(36, 52, 77, 0.12);
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #145da0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 13px 15px;
+            text-align: left;
+            border: 1px solid #cad5e2;
+        }
+
+        th {
+            color: white;
+            background-color: #145da0;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #eef5fb;
+        }
+
+        td:nth-child(2),
+        td:nth-child(3) {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Danh sách sản phẩm</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bàn phím cơ</td>
+                    <td>850.000 VNĐ</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Chuột không dây</td>
+                    <td>420.000 VNĐ</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Tai nghe Gaming</td>
+                    <td>690.000 VNĐ</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Giá đỡ Laptop</td>
+                    <td>350.000 VNĐ</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
